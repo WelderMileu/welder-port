@@ -1,30 +1,31 @@
 import { FaHeadset, FaPhone } from 'react-icons/fa'
+import { Header, Container, Logo, Menu, Icon } from './style.jsx'
 
 export const Nav = () => {
     return (
-        <header>
-            <div className="logo">
-                <div className="icon_logo">
+        <Header>
+            <Container>
+                <Logo>
                     <FaHeadset />
-                </div>
-            </div>
+                </Logo>
+            </Container>
 
-            <div className="menu">
-                <ul>
+            <Container>
+                <Menu>
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Sobre</a></li>
                     <li><a href="">Projetos</a></li>
                     <li><a href="">Contato</a></li>
-                </ul>
-            </div>
+                </Menu>
+            </Container>
 
-            <div className="contato">
-                <span>(031)00000-0000</span>
-                <div className="icon">
+            <Container>
+                <Icon>
                     <FaPhone />
-                </div>
-            </div>
-        </header>
+                </Icon>
+                <span>(031)00000-0000</span>
+            </Container>
+        </Header>
     )
 }
 
