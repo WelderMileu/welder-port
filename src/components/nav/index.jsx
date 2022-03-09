@@ -1,14 +1,14 @@
 import { FaHeadset, FaPhone } from 'react-icons/fa'
-import { Header, Container, Logo, Menu, Icon } from './style.jsx'
+import { Header, Container, Logo, Menu, Icon, Contato } from './style.jsx'
 
 export const Nav = () => {
     return (
         <Header>
-            <Container>
+            <div>
                 <Logo>
                     <FaHeadset />
                 </Logo>
-            </Container>
+            </div>
 
             <Container>
                 <Menu>
@@ -19,12 +19,12 @@ export const Nav = () => {
                 </Menu>
             </Container>
 
-            <Container>
+            <Contato>
+                <span>(031) 0000-0000</span>
                 <Icon>
                     <FaPhone />
                 </Icon>
-                <span>(031)00000-0000</span>
-            </Container>
+            </Contato>
         </Header>
     )
 }
