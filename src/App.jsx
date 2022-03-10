@@ -1,10 +1,14 @@
-import { useState } from 'react'
-import { Nav } from './components/nav'
+import { Card } from './components/Card'
 
 function App() {
   return (
-    <div>
-      <Nav />    
+    <div style={{ 
+      "display": "flex", 
+      "flexDirection": "column" , 
+      "justifyContent": "center",
+      "alignItems" : "center" 
+    }}>
+      <Card />
     </div>
   )
 }
