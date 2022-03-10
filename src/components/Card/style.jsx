@@ -11,7 +11,7 @@ export const Container = styled.div`
     margin-top: 50px;
     width: 507px;
     height: 352px;
-    background-color: #02414B;
+    background-color: #3D737D;
     
     border-radius: 20px;
     display: flex;
@@ -52,6 +52,7 @@ export const Author = styled.div`
         color: #fff;
         font-size: 18px;
         font-family: "Poppins";
+        font-weight: 200;
         padding: 0;
         margin: 0;
     }
@@ -93,7 +94,14 @@ export const Gmail_Button = styled.button`
     align-items: center;
 
     padding: 30px;
+    cursor: pointer;
 
+    transition: 0.5s;
+
+    :hover {
+        background-color: #fff;
+        color: gray;
+    }
 
     span {
         font-family: "Poppins";

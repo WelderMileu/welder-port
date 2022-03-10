@@ -1,4 +1,5 @@
 import { Card } from './components/Card'
+import { Abaut } from './components/Abaut'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       "alignItems" : "center" 
     }}>
       <Card />
+      <Abaut />
     </div>
   )
 }

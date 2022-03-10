@@ -1,4 +1,4 @@
-import { FaGoogle, FaGithub, FaLinkedin} from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWpforms } from 'react-icons/fa'
 import {
     Container,
     Group,
@@ -33,8 +33,8 @@ export const Card = () => {
                 </Content>
             </Group>
             <Gmail_Button>
-                <FaGoogle />
-                <span>Enviar Proposta</span>
+                <FaWpforms />
+                <span>Curriculo Open</span>
             </Gmail_Button>
         </Container>
     )
