@@ -3,11 +3,12 @@ import { Container } from '../../../style/style'
 import { Content } from './style'
 
 const Nav = () => (
-    <Container>
-        <Content>
+    <Content>
+        <Container>
             <img src={Logo} alt="" />
-        </Content>
-    </Container>
+        </Container>
+    </Content>
+
 )
 
 export default Nav;

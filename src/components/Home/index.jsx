@@ -1,7 +1,8 @@
 import { FaInternetExplorer } from 'react-icons/fa'
 import { Container } from "../../../style/style";
-import { Content, Description, GroupButton } from './style'
 import { Button, ButtonOutline } from "../../../style/style";
+import { Content, Description, GroupButton, Ilustrator } from './style'
+
 import Laptop from '../../assets/laptop.svg'
 
 const Home = () => (
@@ -16,6 +17,7 @@ const Home = () => (
                 <p>
                     It is a long established fact that a reader will be distracted byt.
                 </p>
+            
                 <GroupButton>
                     <Button>
                         Get Started
@@ -31,7 +33,10 @@ const Home = () => (
                     </div>
                 </GroupButton>
             </Description>
-            <img src={ Laptop } alt="" />
+
+            <Ilustrator>
+                <img src={ Laptop } alt="" />
+            </Ilustrator>
         </Content>
     </Container>
 )

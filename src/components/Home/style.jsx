@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Content = styled.div`
-    margin-top: 90px;
     display: flex;
+    padding-top: 250px;
 `;
 
 export const Description = styled.div`
@@ -63,4 +63,12 @@ export const GroupButton = styled.div`
         ". tres"; 
 
     grid-gap: 20px;
+`;
+
+export const Ilustrator = styled.div`
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
 `;
