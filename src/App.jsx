@@ -1,17 +1,16 @@
-import { Card } from './components/Card'
-import { Abaut } from './components/Abaut'
+import { Fragment } from 'react'
+import { GlobalStyle } from '../style/global_style'
+
+import Nav from './components/Nav'
+import Home from './components/Home'
 
 function App() {
   return (
-    <div style={{ 
-      "display": "flex", 
-      "flexDirection": "column" , 
-      "justifyContent": "center",
-      "alignItems" : "center" 
-    }}>
-      <Card />
-      <Abaut />
-    </div>
+    <Fragment>
+      <GlobalStyle />
+      <Nav />
+      <Home />
+    </Fragment>
   )
 }
 
