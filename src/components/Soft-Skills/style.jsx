@@ -8,7 +8,7 @@ export const Content = styled.div`
 
 export const GroupIcons = styled.div`
     border-radius: 20px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid var(--color-gray-smlight);
 
     display: flex;
     flex-direction: row;
@@ -20,7 +20,7 @@ export const Icon = styled.div`
     width: 120px;
     height: 120px;
     
-    border: 0.5px solid #50838E;
+    border: 0.5px solid var(--color-green-light);
     border-radius: 20px;
     margin: 10px;
 
@@ -30,7 +30,7 @@ export const Icon = styled.div`
 
     svg {
         font-size: 70px;
-        color: #50838E;
+        color: var(--color-green-light);
     }
 `;
 

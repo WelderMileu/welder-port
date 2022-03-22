@@ -11,14 +11,14 @@ export const Button = styled.button`
     padding-left: 20px;
     padding-right: 20px;
     height: 65px;
-    background-color: #50838E;
+    background-color: var(--color-green-light);
 
     border: none;
     border-radius: 5px;
 
     font-size: 24px;
     font-weight: 400;
-    color: white;
+    color: var(--color-white);
 `;
 
 export const ButtonOutline = styled.button`
@@ -27,12 +27,12 @@ export const ButtonOutline = styled.button`
     padding-left: 20px;
     padding-right: 20px;
     height: 65px;
-    background-color: white;
+    background-color: var(--color-white);
 
-    border: 1px solid #50838E;
+    border: 1px solid var(--color-green-light);
     border-radius: 5px;
 
     font-size: 24px;
     font-weight: 400;
-    color: #50838E;
+    color: var(--color-green-light);
 `;

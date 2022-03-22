@@ -11,11 +11,11 @@ export const Description = styled.div`
     h1 {
         font-size: 72px;
         font-weight: 500;
-        color: #50838E;
+        color: var(--color-green-light);
         line-height: 75px;
 
         span:nth-child(1) {
-            color: #BCBCBC;
+            color: var(--color-gray-smlight);
         }
 
         span:nth-child(2) {
@@ -26,7 +26,7 @@ export const Description = styled.div`
     p {
         font-size: 24px;
         font-weight: 300;
-        color: #838383;
+        color: var(--color-gray-light);
         margin-top: 30px;
         max-width: 460px;
     }

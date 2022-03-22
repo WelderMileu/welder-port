@@ -1,6 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+    :root {
+        --color-white: #ffffff;
+        --color-gray-light: #838383;
+        --color-gray-smlight: #CCCCCC;
+        --color-green-light: #50838E; 
+    }
+
     *,
     html,
     #root {

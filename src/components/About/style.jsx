@@ -59,9 +59,9 @@ export const AboutMe = styled.div`
         padding: 30px;    
         font-size: 24px;
         font-weight: 300;
-        color: #838383;
+        color: var(--color-gray-light);
 
         border-radius: 20px;
-        border: 1px solid #CCCCCC;
+        border: 1px solid var(--color-gray-smlight);
     }
 `;

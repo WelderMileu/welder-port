@@ -14,10 +14,10 @@ export const Header = styled.div`
 
     h1 {
         text-transform: uppercase;
-        color: #50838E;
+        color: var(--color-green-light);
 
         span {
-            color: #CCCCCC;
+            color: var(--color-gray-smlight);
         }
     }
 `;
@@ -27,26 +27,26 @@ export const Card = styled.div`
     height: 297px;
     margin: 20px;
 
-    border: 1px solid #CCCCCC;
+    border: 1px solid var(--color-gray-smlight);
     border-radius: 10px;
 
     padding: 30px;
 
     svg {
-        color: #50838E;
+        color: var(--color-green-light);
         font-size: 73.33px;
     }
 
     h4 {
         margin-top: 20px;
-        color: #50838E;
+        color: var(--color-green-light);
         font-size: 24px;       
     }
 
     p {
         margin-top: 20px;
         font-size: 24px;
-        color: #838383;
+        color: var(--color-gray-light);
         font-weight: 300;
     }
 `;
