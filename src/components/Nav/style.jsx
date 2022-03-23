@@ -13,7 +13,12 @@ export const Content = styled.div`
 
     box-shadow: 10px 20px 10px rgba(0,0,0, 0.1);
 
-    img {
-        width: 150px;
+    @media (max-width: 500px) {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        img {
+            width: 150px;
+        }
     }
 `;

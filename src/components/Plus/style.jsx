@@ -63,7 +63,9 @@ export const Card = styled.div`
     }
 
     @media (max-width: 500px) {
+        margin:0;
+        margin-bottom: 30px;
         width: 100% !important;
-        height: 260px;
+        height: 285px;
     }
 `;

@@ -16,7 +16,9 @@ export const GroupIcons = styled.div`
     padding: 10px;
 
     @media (max-width: 500px) {
+        justify-content: space-around;
         flex-wrap: wrap;
+        padding: 5px;
     }
 `;
 
