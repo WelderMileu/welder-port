@@ -19,6 +19,10 @@ export const Header = styled.div`
         span {
             color: var(--color-gray-smlight);
         }
+
+        @media (max-width: 500px) {
+            font-size: 24px;
+        }
     }
 `;
 
@@ -40,7 +44,11 @@ export const Card = styled.div`
     h4 {
         margin-top: 20px;
         color: var(--color-green-light);
-        font-size: 24px;       
+        font-size: 24px;
+        
+        @media (max-width: 500px) {
+            font-size: 18px;
+        }
     }
 
     p {
@@ -48,5 +56,14 @@ export const Card = styled.div`
         font-size: 24px;
         color: var(--color-gray-light);
         font-weight: 300;
+
+        @media (max-width: 500px) {
+            font-size: 18px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        width: 100% !important;
+        height: 260px;
     }
 `;

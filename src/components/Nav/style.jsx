@@ -12,4 +12,8 @@ export const Content = styled.div`
     align-items: center;
 
     box-shadow: 10px 20px 10px rgba(0,0,0, 0.1);
+
+    img {
+        width: 150px;
+    }
 `;

@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
     padding-left: 100px;
     padding-right: 100px;
+
+    @media (max-width: 500px) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 `;
 
 export const Button = styled.button`
@@ -19,6 +24,11 @@ export const Button = styled.button`
     font-size: 24px;
     font-weight: 400;
     color: var(--color-white);
+
+    @media (max-width: 500px) {
+        font-size: 18px !important;
+        max-width: 100%;
+    }
 `;
 
 export const ButtonOutline = styled.button`
@@ -35,4 +45,9 @@ export const ButtonOutline = styled.button`
     font-size: 24px;
     font-weight: 400;
     color: var(--color-green-light);
+
+    @media (max-width: 500px) {
+        font-size: 18px !important;
+        max-width: 100%;
+    }
 `;

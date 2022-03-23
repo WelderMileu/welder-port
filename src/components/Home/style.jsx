@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Content = styled.div`
     display: flex;
     padding-top: 250px;
+
+    @media (max-width: 500px) {
+        padding-top: 180px;
+    }
 `;
 
 export const Description = styled.div`
@@ -21,6 +25,11 @@ export const Description = styled.div`
         span:nth-child(2) {
             text-decoration-line: line-through;
         }
+
+        @media (max-width: 500px) {
+            font-size: 50px;
+            line-height: 50px;
+        }
     }
 
     p {
@@ -29,6 +38,14 @@ export const Description = styled.div`
         color: var(--color-gray-light);
         margin-top: 30px;
         max-width: 460px;
+
+        @media (max-width: 500px) {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        max-width: 100% !important;
     }
 `;
 
@@ -43,6 +60,10 @@ export const GroupButton = styled.div`
 
     button:nth-child(2) {
         grid-area: "dois";
+
+        @media (max-width: 500px) {
+            width: 100% !important;
+        }
     }
 
     div:nth-child(4) {
@@ -54,6 +75,10 @@ export const GroupButton = styled.div`
         button {
             width: 60px;
         }
+
+        @media (max-width: 500px) {
+            width: 100%;
+        }
     }
 
     grid-template-columns: 1fr 1fr; 
@@ -63,6 +88,15 @@ export const GroupButton = styled.div`
         ". tres"; 
 
     grid-gap: 20px;
+
+    @media (max-width: 500px) {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        grid-template-areas: 
+        "um"
+        "dois"
+        "tres" !important;    
+    }
 `;
 
 export const Ilustrator = styled.div`
@@ -70,5 +104,9 @@ export const Ilustrator = styled.div`
 
     img {
         width: 100%;
+    }
+
+    @media (max-width: 500px) {
+        display: none;
     }
 `;

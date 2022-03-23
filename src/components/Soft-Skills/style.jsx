@@ -14,6 +14,10 @@ export const GroupIcons = styled.div`
     flex-direction: row;
 
     padding: 10px;
+
+    @media (max-width: 500px) {
+        flex-wrap: wrap;
+    }
 `;
 
 export const Icon = styled.div`

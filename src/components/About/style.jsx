@@ -8,6 +8,10 @@ export const GroupContent = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 500px) {
+        flex-direction: column !important;
+    }
 `;
 
 export const Avatar = styled.div`
@@ -46,6 +50,12 @@ export const Description = styled.div`
             margin-right: 10px;
         }
     }
+
+    @media (max-width: 500px) {
+        width: 100% !important;
+        padding-right: 0;
+        margin-top: 60px;
+    }
 `;
 
 export const AboutMe = styled.div`
@@ -63,5 +73,13 @@ export const AboutMe = styled.div`
 
         border-radius: 20px;
         border: 1px solid var(--color-gray-smlight);
+        
+        @media (max-width: 500px) {
+            font-size: 18px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        max-width: 100% !important;
     }
 `;
